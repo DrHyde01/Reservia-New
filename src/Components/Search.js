@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt, faInfo } from "@fortawesome/free-solid-svg-icons";
 import { filters } from "../Datas/Filters";
 
 function Search() {
@@ -27,7 +27,7 @@ function Search() {
         />
         <button
           type="submit"
-          className="rounded-r-lg bg-blue-600 h-full px-3 hover:bg-blue-500"
+          className="rounded-r-lg bg-blue-600 h-full px-3 ease-in-out duration-500 hover:bg-blue-500"
         >
           <span className="text-white">Rechercher</span>
         </button>
@@ -38,14 +38,29 @@ function Search() {
         <div className="flex flex-wrap">
           {/* Create elements with data comming from Filters file */}
           {filtersList.map(({ id, name, icon }) => (
-            <div key={id} className="flex items-center mx-4 border rounded-l-full rounded-r-full hover:bg-gray-100">
+            <div
+              key={id}
+              className="flex items-center mx-4 border rounded-l-full rounded-r-full cursor-pointer ease-in-out duration-500 hover:bg-gray-100"
+            >
               <div className="flex justify-center items-center w-12 h-full bg-blue-100 rounded-l-full rounded-r-full">
-              <FontAwesomeIcon icon={icon} className="text-blue-600 text-xl h-12" />
+                <FontAwesomeIcon
+                  icon={icon}
+                  className="text-blue-600 text-xl h-12"
+                />
               </div>
               <p className="font-semibold text-center px-4">{name}</p>
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="flex items-center py-4">
+        <div className="flex justify-center items-center h-6 w-6 border-2 rounded-full">
+          <FontAwesomeIcon icon={faInfo} className="text-xs text-blue-500" />
+        </div>
+        <p className="ml-2 text-gray-500">
+          Plus de 500 logements sont disponibles dans cette ville
+        </p>
       </div>
     </div>
   );
