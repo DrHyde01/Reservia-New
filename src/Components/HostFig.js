@@ -1,10 +1,8 @@
 import { hosts } from "../Datas/HostsList";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import HostsRate from "./HostsRate";
 
 function HostsFig() {
   const hostsList = hosts;
-  const rateRange = [5];
 
   return (
     <div className="grid grid-cols-3 gap-8 py-4">
@@ -27,11 +25,7 @@ function HostsFig() {
               <em className="not-italic font-bold">{price} €</em>
             </p>
 
-            <div className="flex py-2">
-              {Array(rating).fill(
-                <FontAwesomeIcon icon={faStar} className="text-blue-500" />
-              )}
-            </div>
+            <HostsRate rating={rating} />
           </figcaption>
         </figure>
       ))}
