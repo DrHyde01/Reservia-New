@@ -1,8 +1,12 @@
+import soleilMatin from '../Assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg'
+import coeurEau from '../Assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg'
+import toutBleu from '../Assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg'
+
 export const favHosts = [
     {
         name: 'Hôtel Le soleil du Matin',
         price: 128,
-        picture: '../Assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg',
+        picture: soleilMatin,
         rating: 5,
         id: 1
     },
@@ -10,7 +14,7 @@ export const favHosts = [
     {
         name: "Au coeur de l'eau Chambres d'hôtes",
         price: 71,
-        picture: '../Assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg',
+        picture: coeurEau,
         rating: 4,
         id: 2
     },
@@ -18,7 +22,7 @@ export const favHosts = [
     {
         name: 'Hôtel Tout Bleu et Blanc',
         price: 68,
-        picture: '../Assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg',
+        picture: toutBleu,
         rating: 4,
         id: 3
     }

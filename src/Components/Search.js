@@ -15,7 +15,7 @@ function Search() {
       </h2>
 
       <form className="flex justify-start items-center w-6/12 h-12 my-6">
-        <div className="flex justify-center items-center w-12 h-full rounded-l-lg bg-gray-200">
+        <div className="flex justify-center items-center w-12 h-full rounded-l-lg bg-gray-100">
           <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl" />
         </div>
 

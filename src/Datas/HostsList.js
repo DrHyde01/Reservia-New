@@ -1,8 +1,15 @@
+import cannebiere from '../Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg'
+import hotelPort from '../Assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg'
+import mouettes from '../Assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg'
+import hotelMer from '../Assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg'
+import panier from '../Assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg'
+import amina from '../Assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg'
+
 export const hosts = [
  {
      name: 'Auberge de la Cannebière',
      price: 25,
-     picture: '../Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg',
+     picture: cannebiere ,
      rating: 4,
      id: 1
  },
@@ -10,7 +17,7 @@ export const hosts = [
  {
      name: 'Hôtel du Port',
      price: 52,
-     picture: '../Assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg',
+     picture: hotelPort ,
      rating: 5,
      id: 2
  },
@@ -18,7 +25,7 @@ export const hosts = [
  {
      name: 'Hôtel les mouettes',
      price: 76,
-     picture: '../Assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg',
+     picture: mouettes,
      rating: 4,
      id: 3
  },
@@ -26,7 +33,7 @@ export const hosts = [
  {
      name: 'Hôtel de la mer',
      price: 46,
-     picture: '../Assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg',
+     picture: hotelMer,
      rating: 3,
      id: 4
  },
@@ -34,7 +41,7 @@ export const hosts = [
  {
      name: 'Auberge Le Panier',
      price: 23,
-     picture: '../Assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg',
+     picture: panier,
      rating: 4,
      id: 5
  },
@@ -42,7 +49,7 @@ export const hosts = [
  {
      name: 'Hôtel chez Amina',
      price: 96,
-     picture: '../Assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg',
+     picture: amina,
      rating: 5,
      id: 6
  }
