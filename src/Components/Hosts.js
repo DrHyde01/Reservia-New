@@ -1,5 +1,7 @@
 import HostsFig from "./HostFig";
 import FavHostsFig from "./FavHostFig";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 
 
 function Hosts() {
@@ -14,7 +16,10 @@ function Hosts() {
       </div>
 
       <div className="w-auto p-8 m-5 rounded-lg bg-gray-100">
+        <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold my-2">Les plus populaires</h2>
+        <FontAwesomeIcon icon={faChartLine} className="text-2xl"/>
+        </div>
 
         <FavHostsFig />
 
