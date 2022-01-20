@@ -11,7 +11,7 @@ function hostsRate({ rating }) { // Props for parent elm HostFig
           <FontAwesomeIcon
             key={index}
             icon={faStar}
-            className={ratingValue > rating ? "text-gray-200" : "text-blue-600"} 
+            className={ratingValue > rating ? "text-gray-200 text-sm" : "text-blue-600 text-sm"} 
           />
         );
       })}

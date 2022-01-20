@@ -6,7 +6,7 @@ function Search() {
   const filtersList = filters;
 
   return (
-    <div className="p-10">
+    <div className="px-10">
       <h1 className="text-xl font-semibold my-2">
         Trouvez votre hébergement pour des vacances de rêve
       </h1>

@@ -18,7 +18,7 @@ function HostsFig() {
             alt={name}
             className="w-64 h-32 object-cover rounded-t-xl border-4 border-white"
           />
-          <figcaption className="flex flex-col p-3">
+          <figcaption className="flex flex-col py-2 px-3">
             <p className="font-semibold">{name}</p>
             <p className="text-sm">
               Nuit à partir de{" "}
