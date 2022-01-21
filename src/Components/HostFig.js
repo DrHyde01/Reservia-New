@@ -17,7 +17,7 @@ function HostsFig() {
             <img
               src={picture}
               alt={name}
-              className="w-64 h-32 object-cover rounded-t-xl border-4 border-white"
+              className="w-full md:w-64 h-32 object-cover rounded-t-xl border-4 border-white"
             />
             <figcaption className="flex flex-col py-2 px-3">
               <p className="font-semibold">{name}</p>

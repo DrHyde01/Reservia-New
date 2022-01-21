@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="flex flex-wrap h-auto p-10 leading-7 bg-gray-100">
-      <ul className="mr-64">
+    <div className="flex flex-col md:flex-row h-auto p-6 md:p-10 leading-7 bg-gray-100">
+      <ul className="mr-2 mb-6 md:mr-64">
         <li>
           <h2 className="font-semibold mb-2">A propos</h2>
         </li>
@@ -16,7 +16,7 @@ function Footer() {
         </li>
       </ul>
 
-      <ul className="mr-64">
+      <ul className="mr-2 mb-6 md:mr-64">
         <li>
           <h2 className="font-semibold mb-2">Nos hébergements</h2>
         </li>
@@ -28,7 +28,7 @@ function Footer() {
         </li>
       </ul>
 
-      <ul className="mr-64">
+      <ul className="mr-2 mb-6 md:mr-64">
         <li>
           <h2 className="font-semibold mb-2">Assistance</h2>
         </li>

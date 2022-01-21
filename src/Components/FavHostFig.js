@@ -8,7 +8,7 @@ function FavHostsFig() {
           <a href="#">
             <figure
               key={id}
-              className="flex w-80 h-32 mb-8 bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
+              className="flex w-full md:w-80 h-32 mb-8 bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
             >
               <img
                 src={picture}
