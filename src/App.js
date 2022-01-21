@@ -11,6 +11,7 @@ function App() {
       <Search />
       <Hosts />
       <Activities />
+      <Footer />
     </div>
   );
 }
