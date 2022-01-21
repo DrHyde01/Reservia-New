@@ -5,6 +5,7 @@ function FavHostsFig() {
     return (
         <div className="flex flex-col justify-center align-center flex-wrap pt-10 ">
         {favHosts.map(({ id, name, price, picture, rating }) => (
+          <a href="#">
             <figure
               key={id}
               className="flex w-80 h-32 mb-8 bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
@@ -26,6 +27,7 @@ function FavHostsFig() {
                 </div>
               </figcaption>
             </figure>
+            </a>
           ))}
         </div>
     )
