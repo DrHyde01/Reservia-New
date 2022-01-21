@@ -11,13 +11,13 @@ function HostsFig() {
       {hostsList.map(({ id, name, price, picture, rating }) => (
         <figure
           key={id}
-          className="flex-col md:w-64 h-auto bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
+          className="flex-col lg:w-64 h-auto bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
         >
           <a href="#">
             <img
               src={picture}
               alt={name}
-              className="w-full md:w-64 h-32 object-cover rounded-t-xl border-4 border-white"
+              className="w-full lg:w-64 h-32 object-cover rounded-t-xl border-4 border-white"
             />
             <figcaption className="flex flex-col py-2 px-3">
               <p className="font-semibold">{name}</p>
