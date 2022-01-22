@@ -6,7 +6,7 @@ function ActivitiesFig() {
   return (
     <div
       id="activités"
-      className="flex flex-col md:grid grid-cols-4  grid-flow-col grid-rows-6 gap-8 md:h-128 py-4"
+      className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 lg:grid grid-cols-4  grid-flow-col lg:grid-rows-6 gap-8 lg:h-128 2xl:h-160 py-4"
     >
       {activitiesList.map(({ id, name, picture, gridSize }) => (
         <figure
@@ -17,10 +17,10 @@ function ActivitiesFig() {
             <img
               src={picture}
               alt={name}
-              className="w-full h-48 md:h-full  object-cover 
+              className="w-full h-48 lg:h-full  object-cover 
              rounded-t-lg"
             />
-            <figcaption className="flex flex-col w-full p-3 z-10 absolute bottom-0 bg-white">
+            <figcaption className="flex flex-col w-full md:h-2/6 lg:h-auto p-3 z-10 absolute bottom-0 bg-white">
               <p className="font-semibold">{name}</p>
             </figcaption>
           </a>

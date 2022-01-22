@@ -11,7 +11,7 @@ function HostsFig() {
       {hostsList.map(({ id, name, price, picture, rating }) => (
         <figure
           key={id}
-          className="flex-col lg:w-64 h-auto bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
+          className="flex-col lg:w-64 sm:h-auto md:h-64 lg:h-auto bg-white rounded-xl shadow-md shadow-gray-300 ease-in-out duration-500 hover:-translate-y-2"
         >
           <a href="#">
             <img
@@ -19,12 +19,14 @@ function HostsFig() {
               alt={name}
               className="w-full lg:w-64 h-32 object-cover rounded-t-xl border-4 border-white"
             />
-            <figcaption className="flex flex-col py-2 px-3">
+            <figcaption className="flex flex-col md:h-32 lg:h-auto md:justify-between  py-2 px-3">
+              <div>
               <p className="font-semibold">{name}</p>
               <p className="text-sm">
                 Nuit à partir de{" "}
                 <em className="not-italic font-bold">{price} €</em>
               </p>
+              </div>
 
               <HostsRate rating={rating} />
             </figcaption>

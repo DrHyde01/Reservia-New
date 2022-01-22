@@ -9,42 +9,42 @@ export const activities = [
   {
     name: "Vieux port",
     picture: vieuxPort,
-    gridSize: "row-span-6",
+    gridSize: "lg:row-span-6",
     id: 1,
   },
 
   {
     name: "Fort de Pomègues",
     picture: fort,
-    gridSize: "row-span-4",
+    gridSize: "lg:row-span-4",
     id: 2,
   },
 
   {
     name: "Îles du Frioul",
     picture: iles,
-    gridSize: "row-span-2",
+    gridSize: "lg:row-span-2",
     id: 3,
   },
 
   {
     name: "Parc national des Calanques",
     picture: calanques,
-    gridSize: "row-span-6",
+    gridSize: "lg:row-span-6",
     id: 4,
   },
 
   {
     name: "Notre-Dame-de-la-Garde",
     picture: notreDame,
-    gridSize: "row-span-3",
+    gridSize: "lg:row-span-3",
     id: 5,
   },
 
   {
     name: "Parc Longchamp",
     picture: parc,
-    gridSize: "row-span-3",
+    gridSize: "lg:row-span-3",
     id: 6,
   },
 ];

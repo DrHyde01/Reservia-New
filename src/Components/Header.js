@@ -4,7 +4,7 @@ import logo from "../Assets/logo/Reservia@3x.png";
 
 function Header() {
   return (
-    <div className="flex justify-between lg:justify-around items-center flex-wrap lg:px-10 bg-white w-100 h-auto lg:h-28 ">
+    <div className="flex justify-between lg:justify-around items-center flex-wrap lg:px-10 2xl:px-32 bg-white w-100 h-auto lg:h-28">
       <img
         className="mt-10 ml-6 lg:ml-0 lg:mt-0 h-12 order-1"
         src={logo}

@@ -10,7 +10,7 @@ function Search() {
   const filtersList = filters;
 
   return (
-    <div className="md:flex md:flex-col md:items-center lg:items-start mt-5 px-4 lg:px-10 lg:mt-0">
+    <div className="md:flex md:flex-col md:items-center lg:items-start mt-5 px-4 lg:px-10 2xl:px-32 lg:mt-0">
       <h1 className="text-xl font-semibold my-2">
         Trouvez votre hébergement pour des vacances de rêve
       </h1>
