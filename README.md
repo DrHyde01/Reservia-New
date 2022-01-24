@@ -6,4 +6,8 @@
 
 Une nouvelle version du projet de formation Reservia, utilisant React et sa logique !
 
+### Installation  
+
+Clonez le repo. Puis lancez `npm start`, l'app se lance sur `http://localhost:3000/`
+
 
