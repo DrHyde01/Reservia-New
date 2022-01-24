@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { favHosts } from "../Datas/FavHostsList";
 import HostsRate from "./HostsRate";
 
@@ -17,17 +18,16 @@ function FavHostsFig() {
             />
             <figcaption className="flex md:h-full flex-col md:justify-between py-2 p-3">
               <div>
-              <p className="font-semibold">{name}</p>
-              <p className="text-sm">
-                Nuit à partir de{" "}
-                <em className="not-italic font-bold">{price} €</em>
-              </p>
+                <p className="font-semibold">{name}</p>
+                <p className="text-sm">
+                  Nuit à partir de{" "}
+                  <em className="not-italic font-bold">{price} €</em>
+                </p>
               </div>
 
               <div className="mt-4 md:mt-0 lg:mt-4">
                 <HostsRate rating={rating} />
               </div>
-              
             </figcaption>
           </figure>
         </a>

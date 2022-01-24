@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { hosts } from "../Datas/HostsList";
 import HostsRate from "./HostsRate";
 
@@ -21,11 +22,11 @@ function HostsFig() {
             />
             <figcaption className="flex flex-col md:h-32 lg:h-auto md:justify-between  py-2 px-3">
               <div>
-              <p className="font-semibold">{name}</p>
-              <p className="text-sm">
-                Nuit à partir de{" "}
-                <em className="not-italic font-bold">{price} €</em>
-              </p>
+                <p className="font-semibold">{name}</p>
+                <p className="text-sm">
+                  Nuit à partir de{" "}
+                  <em className="not-italic font-bold">{price} €</em>
+                </p>
               </div>
 
               <HostsRate rating={rating} />

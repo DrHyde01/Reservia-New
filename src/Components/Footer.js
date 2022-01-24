@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 function Footer() {
   return (
     <div className="flex flex-col lg:flex-row h-auto p-6 lg:p-10 leading-7 bg-gray-100">
