@@ -7,7 +7,7 @@ function ActivitiesFig() {
   return (
     <div
       id="activités"
-      className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 lg:grid grid-cols-4  grid-flow-col lg:grid-rows-6 gap-8 lg:h-128 2xl:h-160 py-4"
+      className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 lg:grid lg:grid-cols-4  grid-flow-col lg:grid-rows-6 gap-8 lg:h-128 2xl:h-160 py-4"
     >
       {activitiesList.map(({ id, name, picture, gridSize }) => (
         <figure
